@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Complex types - functions"""
+""" Module for callable functions """
 from typing import Callable
 
 
