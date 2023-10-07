@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-""" Module for summing up a list """
+""" Complex types - list of floats """
+from typing import Callable, Iterator, Union, Optional, List
 
 
-def sum_list(input_list: list[float]) -> float:
-    """ Sum the list of floats
-    Agrs:
-        input_list: [float]
-    Return: sum as a float.
+def sum_list(input_list: List[float]) -> float:
     """
-    return float(sum(input_list))
+    Takes a list input_list of floats as argument
+    returns their sum as a float.
+    """
+
+    return sum(input_list)
