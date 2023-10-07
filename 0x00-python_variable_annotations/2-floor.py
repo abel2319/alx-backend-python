@@ -3,7 +3,7 @@
 import math
 
 
-def concat(n: float) -> int:
+def floor(n: float) -> int:
     """ The floor of the floa
     Agrs:
         n: float
