@@ -3,11 +3,11 @@
 """
 
 
-def add(a: int, b: int) -> int:
-    """Add integer
+def add(a: float, b: float) -> float:
+    """Add float
     Args:
-        a: integer
-        b: integer
-    returns: integer a + b
+        a: float
+        b: float
+    returns: float a + b
     """
     return a + b
