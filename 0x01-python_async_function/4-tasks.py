@@ -2,12 +2,13 @@
 """Tasks
 """
 import asyncio
+from typing import List
 
 
 task_wait_random = __import__('3-tasks').task_wait_random
 
 
-def task_wait_n(max_delay: int) -> asyncio.Task:
+async def task_wait_n(max_delay: int) -> List[float]:
     """create async task
     Args:
         max_delay (int): max dalay number
