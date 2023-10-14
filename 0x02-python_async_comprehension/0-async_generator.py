@@ -6,7 +6,7 @@ import random
 from typing import Generator, Any
 
 
-async def async_generator() -> Generator[float, Any, Any]:
+async def async_generator() -> Generator[float, None, None]:
     """Caroutine
     """
     for _ in range(10):
